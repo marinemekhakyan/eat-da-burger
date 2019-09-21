@@ -1,0 +1,141 @@
+body {
+    background-image: linear-gradient(rgba(124, 124, 124, 0.5),rgba(124, 124, 124, 0.5)), url(https://images.pond5.com/neon-burger-sign-turning-and-footage-087686613_prevstill.jpeg);
+    background-size: cover;
+}
+
+#navBar {
+    background: linear-gradient(rgba(243, 216, 216, 0.8),rgba(255, 255, 255, 0.8))
+}
+
+ .nav-link {
+     padding: 20px 10px;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 600;
+     font-size: 14px;
+ }
+
+ #burger-nav {
+     width: 40px;
+ }
+
+ #burgerName {
+    font-family: 'Press Start 2P', cursive;
+    color:white;
+    padding-right: 30px;
+ }
+
+ #apiLink, #repositoryLink {
+    color:white;
+ }
+
+ #apiLink:hover {
+    color:rgb(255, 219, 88);
+ }
+
+ #repositoryLink:hover {
+    color:rgb(179, 30, 23);
+ } 
+
+ .menuTitleContain {
+    position: relative;
+ }
+
+ #burgerTimeLogo {
+    margin: 30px auto;
+    width: 400px;
+ }
+
+ #menuTitle {
+    font-family: 'Press Start 2P', cursive;
+    color:rgb(179, 30, 23);
+    position: absolute;
+    text-shadow: var(--text-outline);
+    font-size: 20px;
+    top: 110px;
+    right: 330px;
+ }
+
+ /* ----------------------------------------------------- */
+
+ .menuDiv {
+     background: rgba(255, 255, 255, 0.8);
+     border-radius: 10px;
+     padding: 30px 40px;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 16px;
+     font-weight: 500;
+     margin-bottom: 30px;
+ }
+
+ .menuTitle {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+ }
+
+ .burgers {
+    padding: 5px;
+}
+
+ .eatButton {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: white;
+    border:none;
+    background: #e6af5d48;
+    margin: 10px;
+    padding: 5px 6px;
+ }
+
+ #tryBurger:hover {
+    color: #e6af5d;
+ }
+
+ #eatBurger:hover{
+    color: rgba(179, 31, 23, 0.7);
+ }
+
+ #error {
+    color: rgba(179, 31, 23);
+ }
+
+/* ----------------------------------------------------- */
+
+.text-center {
+    margin: 20px auto;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 11px;
+    color: white;
+}
+
+form{
+    margin: 10px auto;
+}
+
+input {
+    background: rgba(255, 255, 255, 0.712);
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+    padding: 8px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    width: 250px;
+}
+
+#order-button{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    background: rgba(255, 255, 255, 0.137);
+    color: white;
+    border: none;
+}
+
+#order-button:hover {
+    background:rgba(255, 219, 88, 0.856);
+    color:rgb(179, 30, 23);
+}

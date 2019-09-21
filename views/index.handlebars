@@ -2,7 +2,7 @@
  
     <div class="row">
         <div class="col-xs-12 text-center enter_section">
-            <p>What burger would you like to eat? Type below!</p>
+            <p>Take a break, eat a virtual burger!</p>
             <p id="error"></p>
             <form>
                 <label for="burger_name">Burger Name:</label>
@@ -15,7 +15,7 @@
         <div class="col-1"></div>
         <div class="col-4 menuDiv" id="menu">
 
-            <h1 class="menuTitle">Ready to Devour</h1>
+            <h1 class="menuTitle">Ready to Devour!</h1>
             {{#each burgers}}
             {{#unless devoured}}
             {{> menu devoured=true}}
