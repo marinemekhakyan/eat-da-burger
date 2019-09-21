@@ -1,7 +1,11 @@
   <p class = "burgers">
     {{#if devoured}}
-    <button class="eatButton" id="eatBurger" data-id="{{id}}" data-eaten="{{devoured}}">
+    <button class="eatButton" id="tryBurger" data-id="{{id}}" data-eaten="{{devoured}}">
         Devour
+    </button>
+    {{else}}
+    <button class="eatButton" id="eatBurger" data-id="{{id}}" data-eaten="{{devoured}}">
+        Try Burger!
     </button>
     {{/if}}
     {{burger_name}}
