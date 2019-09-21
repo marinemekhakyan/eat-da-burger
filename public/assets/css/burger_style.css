@@ -1,74 +1,48 @@
 body {
-    background-image: linear-gradient(rgba(124, 124, 124, 0.5),rgba(124, 124, 124, 0.5)), url(https://images.pond5.com/neon-burger-sign-turning-and-footage-087686613_prevstill.jpeg);
+    background-image: linear-gradient(rgba(41, 40, 40, 0.5),rgba(124, 124, 124, 0.5)), url(https://cdn.shopify.com/s/files/1/0023/8469/1252/products/LED_Burger_Front_2_2000x.jpg?v=1532045282);
     background-size: cover;
 }
 
-#navBar {
-    background: linear-gradient(rgba(243, 216, 216, 0.8),rgba(255, 255, 255, 0.8))
+h1 {
+	font-family: 'Turret Road', cursive;
+	color: white;
+	text-align: center; 
+	margin-top: 5px;
 }
 
- .nav-link {
-     padding: 20px 10px;
-     font-family: 'Open Sans', sans-serif;
-     font-weight: 600;
-     font-size: 14px;
- }
-
- #burger-nav {
-     width: 40px;
- }
-
  #burgerName {
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Turret Road', cursive;
     color:white;
     padding-right: 30px;
  }
 
- #apiLink, #repositoryLink {
-    color:white;
+ #apiLink, #repoLink {
+	 color: white;
  }
 
- #apiLink:hover {
-    color:rgb(255, 219, 88);
- }
-
- #repositoryLink:hover {
-    color:rgb(179, 30, 23);
- } 
-
- .menuTitleContain {
-    position: relative;
- }
-
- #burgerTimeLogo {
-    margin: 30px auto;
-    width: 400px;
+ #apiLink:hover, #repoLink:hover {
+    color:rgba(5, 202, 103, 0.486);;
  }
 
  #menuTitle {
-    font-family: 'Press Start 2P', cursive;
-    color:rgb(179, 30, 23);
+    font-family: 'Turret Road', cursive;
+	font-weight: bolder;
     position: absolute;
-    text-shadow: var(--text-outline);
     font-size: 20px;
-    top: 110px;
-    right: 330px;
  }
 
- /* ----------------------------------------------------- */
-
  .menuDiv {
-     background: rgba(255, 255, 255, 0.8);
-     border-radius: 10px;
+     background: rgba(58, 141, 65, 0.562);
      padding: 30px 40px;
-     font-family: 'Open Sans', sans-serif;
+     font-family: 'Righteous', cursive;
      font-size: 16px;
      font-weight: 500;
      margin-bottom: 30px;
+	 color: white;
  }
 
  .menuTitle {
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Turret Road', cursive;
     font-size: 20px;
     padding: 20px;
     text-align: center;
@@ -79,38 +53,24 @@ body {
 }
 
  .eatButton {
-    font-size: 12px;
+    font-size: 14px;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    color: white;
-    border:none;
-    background: #e6af5d48;
+    font-weight: bolder;
+    color: grey;
+    border-radius: 3px;
+    background: #f1ff2bd8;
     margin: 10px;
     padding: 5px 6px;
  }
 
- #tryBurger:hover {
-    color: #e6af5d;
- }
-
- #eatBurger:hover{
-    color: rgba(179, 31, 23, 0.7);
- }
-
- #error {
-    color: rgba(179, 31, 23);
- }
-
-/* ----------------------------------------------------- */
-
 .text-center {
     margin: 20px auto;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 11px;
+    font-family: 'Turret Road', cursive;
+    font-size: 20px;
     color: white;
 }
 
-form{
+form {
     margin: 10px auto;
 }
 
@@ -130,12 +90,7 @@ input {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 12px;
-    background: rgba(255, 255, 255, 0.137);
-    color: white;
+    background: rgba(5, 202, 103, 0.486);
+    color: rgb(255, 255, 255);
     border: none;
-}
-
-#order-button:hover {
-    background:rgba(255, 219, 88, 0.856);
-    color:rgb(179, 30, 23);
 }

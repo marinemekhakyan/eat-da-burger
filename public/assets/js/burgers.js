@@ -1,15 +1,15 @@
 $(document).on("click", ".eatButton", function () {
-    var burgerId = $(this).data("id");
-    var eaten = $(this).data("eaten");
-    console.log(eaten)
+    var id = $(this).data("id");
+    var devoured = $(this).data("devoured");
+    console.log(devoured);
 
-    var newEaten = {
-        devoured: eaten
+    var newlyDevoured = {
+        devoured: devoured
     };
 
-    $.ajax("/api/burgers/" + burgerId, {
+    $.ajax("/api/burgers/" + id, {
         method: "PUT",
-        data: newEaten
+        data: newlyDevoured
     }).then(function () {
         location.reload();
     })
@@ -27,7 +27,5 @@ $(document).on("click", "#order-button", function(event) {
         $.post("/api/burgers", newBurger, function() {
             location.reload();
         })
-    } else {
-        $("#error").text("Please enter a burger name.");
-    }
+    };
 })
