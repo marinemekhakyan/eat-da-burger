@@ -67,7 +67,15 @@ h1 {
      font-weight: 500;
      margin-bottom: 30px;
 	 color: white;
+	-webkit-animation-name: menuDiv;
+    -webkit-animation-duration: 3s;
+	animation-iteration-count: infinite;
  }
+
+   @-webkit-keyframes menuDiv {
+      from {background: rgba(203, 248, 41, 0.562)}
+      to {background: rgba(58, 141, 65, 0.562))}
+  }
 
  .menuTitle {
     font-family: 'Turret Road', cursive;
@@ -89,18 +97,6 @@ h1 {
     background: #f1ff2bd8;
     margin: 10px;
     padding: 5px 6px;
- }
-
- #tryBurger:hover {
-    color: #e6af5d;
- }
-
- #eatBurger:hover{
-    color: rgba(179, 31, 23, 0.7);
- }
-
- #error {
-    color: rgba(179, 31, 23);
  }
 
 .text-center {
