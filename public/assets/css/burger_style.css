@@ -16,12 +16,12 @@ h1 {
     padding-right: 30px;
  }
 
- #apiLink, #repoLink {
+ #repoLink {
 	 color: white;
  }
 
- #apiLink:hover, #repoLink:hover {
-    color:rgba(5, 202, 103, 0.486);;
+ #repoLink:hover {
+    color:blue;
  }
 
  #menuTitle {
