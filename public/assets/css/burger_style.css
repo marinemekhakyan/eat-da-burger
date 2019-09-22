@@ -32,13 +32,16 @@ h1 {
  }
 
  .menuDiv {
-     background: rgba(58, 141, 65, 0.562);
-     padding: 30px 40px;
+     background: rgba(213, 248, 85, 0.562);
+     padding: 10px 20px;
      font-family: 'Righteous', cursive;
      font-size: 16px;
      font-weight: 500;
      margin-bottom: 30px;
 	 color: white;
+	 border-left: 2px solid blue;
+	 border-top: 2px solid blue;
+	 border-radius: 7px;
  }
 
  .menuTitle {
@@ -90,7 +93,7 @@ input {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 12px;
-    background: rgba(5, 202, 103, 0.486);
+    background: rgba(213, 248, 85, 0.562);
     color: rgb(255, 255, 255);
     border: none;
 }
