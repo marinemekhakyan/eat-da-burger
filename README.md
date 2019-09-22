@@ -15,5 +15,5 @@ It's not as delicious or fun as the real late-night fast food crawl, but it's fa
 
 #### Deployed on Heroku
 
-Bon apetit [Heroku link goes here]
+Bon apetit https://late-night-burger-place.herokuapp.com/
 
