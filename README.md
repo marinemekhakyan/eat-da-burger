@@ -1,4 +1,4 @@
-gi# Late Night Burger Place 
+# Late Night Burger Place 
 
 ##  The home of 0-calorie burgers 
 
@@ -17,5 +17,5 @@ It's not as delicious or fun as the real late-night fast food crawl, but it's fa
 
 Bon apetit https://late-night-burger-place.herokuapp.com/
 
-Updated portfolio: https://marinemekhakyan.github.io/i-portfolio/work-2.html
+![](https://github.com/marinemekhakyan/eat-da-burger/blob/master/public/assets/img/readme-screenshot.gif?raw=true)
 
